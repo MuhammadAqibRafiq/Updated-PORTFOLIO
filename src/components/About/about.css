@@ -1,0 +1,13 @@
+.abhire-btn{
+    background-image: linear-gradient(to right,#4458dc 0%,#854fee 100%) , radial-gradient(circle at top left,#4458dc,#854fee);
+}
+
+@media only screen and (max-width: 500px) {
+    .colabout{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    }
+
+}
