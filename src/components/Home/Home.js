@@ -2,7 +2,7 @@ import React from 'react';
 import HomeRight from './home-right.png'
 import { Container, Row, Col, Button } from "react-bootstrap"
 import "./home.css";
-import Pdf from './Resume.pdf'
+import Pdf from '../Resume/Resume.pdf'
 
 export default function Home() {
   return (

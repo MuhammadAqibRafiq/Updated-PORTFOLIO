@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, Col, Button } from "react-bootstrap"
 import AboutLeft from './aboutleft.png'
 import './about.css'
-import Pdf from './Resume.pdf'
+import Pdf from '../Resume/Resume.pdf'
 
 
 function About() {
