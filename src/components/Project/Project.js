@@ -8,7 +8,7 @@ import Lolly from './images/lolly.png'
 import Todo from './images/todo.png'
 import Form from './images/form.png'
 import './project.css'
-
+import Linkedin from './images/Linkedin.png'
 
 
 const Project = () => {
@@ -21,6 +21,18 @@ const [show, setShow] = useState(false);
         <h2 className='mt-2 mb-1'>RECENTLY DONE PROJECT</h2>
 
         <Row xs={1} md={3} className="g-4 row">
+
+          <Card className="cards" >
+            <a href='https://Llinkedin.netlify.app/' target="_blank" rel="noreferrer" >
+              <Card.Img className='cardimg' src={Linkedin} />
+            </a>
+            <Card.Body>
+              <Card.Title className="cardtitle" >Linkedin</Card.Title>
+              <Card.Text>
+                {/* <a href='https://youtu.be/raXWhg4F_5M'>DEMO VIDEO</a> */}
+              </Card.Text>
+            </Card.Body>
+          </Card>
 
           <Card className="cards" >
             <a href='https://bootcamp2020.netlify.app/' target="_blank" rel="noreferrer" >
